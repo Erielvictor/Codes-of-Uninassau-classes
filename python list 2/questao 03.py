@@ -5,7 +5,7 @@ num = [] # Cria uma lista para receber os números
 for i in range(2): 
     valor = int(input(f"Digite o {i+1}º valor: "))
     num.append(valor) 
-    #o serviço ".append(var)" serve para que os valores informados sejam adicionados à variável que é uma lista.
+    #o serviço "var.append(var2)" serve para que os valores informados sejam adicionados à variável que é uma lista.
 
 # estrutura for x in range(n) determina que o código irá repetir n vezes.
     

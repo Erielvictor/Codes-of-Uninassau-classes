@@ -12,7 +12,7 @@ l1 = float(input("Informe a medida do primeiro lado: "))
 l2 = float(input("Informe a medida do segundo lado: "))
 l3 = float(input("Informe a medida do terceiro lado: "))
 
-if (l1 + l2 > l3) and (l1 + l3 > l2) and (l2 + l3 > l1):
+if (l1 + l2 > l3) and (l1 + l3 > l2) and (l2 + l3 > l1): #condicional confirmando se o triângulo é válido, caso seja, então irá rodar o if e os elifs dentro dele, caso não, irá rodar o else fora do If
     print("O triângulo é válido!")
 
     if (l1 == l2 and l2 == l3) or (l1 == l3 and l3 == l2):
@@ -22,5 +22,8 @@ if (l1 + l2 > l3) and (l1 + l3 > l2) and (l2 + l3 > l1):
         print("É um triângulo isósceles ")
     elif (l1 != l2 != l3):
         print("É um triângulo escaleno!")
-else:
+
+
+else: #O else está aqui pois, caso o triângulo não seja válido, irá mostrar o quê tem no else
     print("O triângulo não é válido!")
+
