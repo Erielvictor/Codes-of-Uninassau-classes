@@ -4,7 +4,8 @@ n1 = int(input("Informe o primeiro número: "))
 n2 = int(input("Informe o segundo número: "))
 n3 = int(input("Informe o terceiro número: "))
 
-lista = [n1, n2, n3] # para criar a lista basta escolher uma variável e por "= []" isso faz com que o pc entenda que aquela variável é uma lista. 
+lista = [n1, n2, n3] 
+# para criar a lista basta escolher uma variável e por "= []" isso faz com que o pc entenda que aquela variável é uma lista. 
 # A lista serve para armazenar MAIS DE UMA VARIÁVEL
 lista_ordenada = lista.sort() #var.sort() faz com que os itens dentro da variável sejam ordenados em ordem crescente(Isso funciona com números e quando quer saber qual a maior palavra em quantidade de letras.)
 
