@@ -3,7 +3,7 @@
 name_prod = []
 price_prod = []
 
-for i in range(2):
+for i in range(10):
     
     n_prod = input("Informe o nome do produto: ")
     print(n_prod)
