@@ -9,6 +9,7 @@ for i in range(15):
 
     if res == 1:
         s_g = s_g + 1
+
     elif res == 2:
         n_g = n_g + 1
     else:
