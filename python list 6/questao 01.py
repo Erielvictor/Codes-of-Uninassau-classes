@@ -3,7 +3,7 @@
 lista = []
 pos = []
 
-for i in range(4):
+for i in range(6):
     res = int(input(f"Informe o {i + 1}° número inteiro: "))
     lista.append(res)
 
