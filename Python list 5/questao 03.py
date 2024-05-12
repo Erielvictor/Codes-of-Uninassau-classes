@@ -1,5 +1,4 @@
 # Cada  espectador  de  um  cinema  respondeu  a um  questionário  no  qual  constava  sua opinião  em  relação  ao  filme: ótimo –3,  bom –2,  regular –1.  Faça  um  programa  que receba a opinião de 5 espectadores, calcule e mostre:•A quantidade de pessoas que responderam ótimo;•A quantidade de pessoas que responderam bom;•A quantidade de pessoas que responderam regular;
-
 o = 0
 b = 0
 r = 0
