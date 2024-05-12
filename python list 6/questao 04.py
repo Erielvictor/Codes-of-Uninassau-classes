@@ -1,7 +1,5 @@
 # Faça um programa que lê 4 números reais em uma lista, calcula e exibe a quantidade de números negativos e a soma dos números positivos dessa mesma
 
-import math as mt
-
 numeros = []
 neg = []
 pos = []
@@ -11,25 +9,25 @@ pos_s = 0
 
 
 for i in range(4):
-    num = float(input(f"Informe o {i + 1}° número inteiro: "))
+    num = float(input(f"Informe o {i + 1}° número racional: "))
     numeros.append(num)
     
 
 for num in numeros:
     if num >= 0:
-        pos = num
-        print(f"{pos}")
+        pos.append(num)
+        pos_s = sum(pos)
+       # print(f"{pos}")
         
 
 for num in numeros:
     if num < 0:
         neg.append(num)
-        print(neg)
+        #print(neg)
         neg_quant += 1
-        print(neg_quant)
+        #print(neg_quant)
 
 
-print(numeros)
-print(neg)
-print(pos)
+print(f"A quantidade de números negativos é {neg_quant} sendo a lista: {neg}")
+print(f"Os números positivos são: {pos} e a sua soma é igual a: {pos_s}")
 

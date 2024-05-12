@@ -4,7 +4,7 @@
 # entre 50 e 100 -> 10%
 # classificação de aumento:
 # até 80 reais -> barato
-#entre 80 e 120(inclusive, <=) -> normal
+#entre 80 e 120(inclusi ve, <=) -> normal
 #entre 120 e 200(inclusive, <=) .> caro
 # maior que 200 -> caro
 
