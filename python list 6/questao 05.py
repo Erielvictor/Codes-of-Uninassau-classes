@@ -4,7 +4,6 @@
 #•A quantidade de produtos com preço acima de R$ 80,00
 #•A média de preço dos produtos;
 
-
 prod = []
 
 A = []
@@ -46,5 +45,3 @@ print(f"A quantidade de produtos com preço entre R$ 50,00 e 80,00 é igual a: {
 print(f"A quantidade de produtos com preço acima de R$ 80,00 é igual a: {C_quant}")
 
 print(f"A média dos preços é igual a: R$ {media:.2f}")
-
-
