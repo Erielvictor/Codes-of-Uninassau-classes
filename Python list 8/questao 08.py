@@ -18,16 +18,15 @@ def calculadora(n1, n2, op):
         return "operação inválida!"
     return res
 
-while op != "E": 
-    n1 = int(input("Digite um número inteiro: "))
-    n2 = int(input("Digite um outro número inteiro: "))
 
-    print("Operações: \n [+] adição \n [-] subtração \n [*] multiplicação \n [/] divisão")
+n1 = int(input("Digite um número inteiro: "))
+n2 = int(input("Digite um outro número inteiro: "))
 
-    op = input("Informe a operação desejada: ")
+print("Operações: \n [+] adição \n [-] subtração \n [*] multiplicação \n [/] divisão")
 
+op = input("Informe a operação desejada: ")
 
-    res_cal = calculadora(n1, n2, op)
+res_cal = calculadora(n1, n2, op)
 
-    print(f"O resultado da operação é: {res_cal}")
+print(f"O resultado da operação é: {res_cal}")
         
