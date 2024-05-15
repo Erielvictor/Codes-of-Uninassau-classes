@@ -4,6 +4,8 @@ o = 0
 b = 0
 r = 0
 
+#lista = []
+
 o_lista = []
 b_lista = []
 r_lista = []
@@ -12,6 +14,7 @@ r_lista = []
 for i in range(5):
     print("Qual sua opinião sobre o filme? \n [3] para ÓTIMO \n [2] para BOM \n [3] para REGULAR")
     res = int(input("Informe a sua resposta: "))
+    #lista.append(res)
 
     if res == 3:
         o_lista.append(res)
@@ -31,3 +34,10 @@ print(f"A quantidade de pessoas que acharam o filme [ÓTIMO]] é: {o}")
 print(f"A quantidade de pessoas que acharam o filme [BOM] é: {b}")
 
 print(f"A quantidade de pessoas que acharam o filme [REGULAR] é: {r}")
+
+#quant_o = lista.count(3)
+#quant_b = lista.count(2)
+
+#print(quant_o)
+#print(quant_b)
+
