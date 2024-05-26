@@ -11,4 +11,10 @@ arq = ''
 user = []
 
 
-cadastro(user)
+cadastro()
+mostrar()
+if not arqExist(arq):
+    print('O arquivo não existe')
+    criarArq(arq)
+else:
+    print("O arquivo existe")
