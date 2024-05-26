@@ -5,6 +5,10 @@
 #oO nome deverá ficar na primeira linha do arquivo;
 #oO telefone deverá ficar na segunda linha do arquivo
 
-from pylist9.lib.interface import *
+from lib.defs import *
 
-cabeçalho("Oi")
+arq = ''
+user = []
+
+
+cadastro(user)
