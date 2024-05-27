@@ -5,21 +5,9 @@
 arq = 'nomes.txt'
 dados = []
 
-def criarArq(nome):
-    try:
-        a = open(nome, 'wt+')
-        a.close()
-    except:
-        print('Houve um error')
-        nome = str(input("Dê um nome ao arquivo: "))
-        a = open(nome, 'wt+')
-        a.close()
-    else:
-        print('Arquivo Criado') 
 
-
-def cadastrar(nome):
-    arq = open('nomes.txt', 'a')
+def cadastrar():
+    arq = open('nomes.txt', 'w')
     
     for i in range(3):
         nome = str(input("Informe o seu nome: "))
@@ -33,6 +21,5 @@ def mostrar(dados):
     arq.close()
 
 
-criarArq(arq)
-cadastrar(arq)
+cadastrar()
 mostrar(dados)
