@@ -3,7 +3,6 @@
 #•Leia o arquivo indicado pelo usuário (a partir do nome do arquivo);
 #•Exiba o nome do aluno, sua média no semestre e se o mesmo está aprovado ou reprovado (considere que a média da faculdade é 7,0);  
 
-
 def cadastrar():
     arq = open(f'{nome_arq}.txt', 'w')
     lista_nomes = []

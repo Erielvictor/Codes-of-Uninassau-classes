@@ -8,7 +8,10 @@
 
 
 def cadastrar():
-    arq = open(f'{nome_arq}.txt', 'w')
+    arq = open(f'{nome_arq}.txt', 'w') # uma variável recebe o comando de abrir o arquivo criado
+    #Note que está em F-string, pois é necessário para um bom funcionamento e identação.
+    #Note também que a f-string está abrindo a variável nome_arq, ou seja, o arquivo que foi criado
+    #Como a variável nome_arq representa o arquivo criado, então não é preciso especificar o nome do arquivo, basta colocar a variável que o código entende
     lista_nomes = []
     lista_notas = []
 
@@ -31,11 +34,10 @@ def cadastrar():
 def mostrar():
     arq = open(f'{nome_arq}.txt', 'r')
     dados = arq.read()
-
     infos = dados.split('\n')
 
-    if infos[-1] == '': 
-        del infos[-1]
+    if infos[-1] == '': # Confere se tem espaço vazio 
+        del infos[-1] # se tiver espaço em branco, vai apagar
         
     nomes = infos[0].split()
     notas = infos[1].split()
@@ -44,7 +46,9 @@ def mostrar():
     for i in range(len(nomes)):
         print(f'Pessoa {nomes}, nota{notas}')
 
-for i in range(4):
-    nome_arq = input("Digite o nome do arquivo: ")
-    cadastrar()
+for i in range(4): # Esse for faz com que as funções e o input rodem 4 vezes. Deve estar antes das funções para poder funcionar corretamente.
+    #Se botar esse for no início, não tem como chamar as funções dentro dele, pois o computador entende que as funções ainda não foram criadas
+    nome_arq = input("Digite o nome do arquivo: ") #Pedindo o nome do arquivo
+
+    cadastrar() #chamando as funções
     mostrar()
