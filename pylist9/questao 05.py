@@ -24,7 +24,7 @@ def cadastrar():
             arq.write(f'{lista_nomes} ')
             arq.write('\n')
 
-        for i in range(3):
+        for i in range(1):
             arq.write(f"{lista_notas} ")
         arq.close()
 
@@ -38,16 +38,13 @@ def mostrar():
         del infos[-1]
         
     nomes = infos[0].split()
-    tel = infos[1].split()
+    notas = infos[1].split()
         
 
     for i in range(len(nomes)):
-        print(f'Pessoa {nomes[i]}, Telefone{tel[i]}')
+        print(f'Pessoa {nomes}, nota{notas}')
 
 for i in range(4):
-
     nome_arq = input("Digite o nome do arquivo: ")
-
-
     cadastrar()
     mostrar()

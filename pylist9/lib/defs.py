@@ -1,3 +1,5 @@
+#Apenas um scrip pra armazenar algumas funções de teste.
+
 def linha(tam = 42):
     return "-" * 42
 
