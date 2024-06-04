@@ -11,7 +11,7 @@ for i in range(2):
 
 for i in range(2):
     for j in range(2):
-        if alturas[i][j] > 1.50:
+        if alturas[i][j] > 1.50 and alturas[i][j] > 150:
             maior += 1
 
 print(f"Quantidade de pessoas com altura superior a 1.50 metros: {maior}")
