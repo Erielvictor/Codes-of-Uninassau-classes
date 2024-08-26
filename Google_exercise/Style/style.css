@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Header*/
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.Header a {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: inherit;
+
+}
+
+.Header a:hover {
+    text-decoration: underline;
+}
+
+.Header_right {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.Header_right .Header_apps {
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+/*Header Ends*/
+
+
+/** Main body starts **/
+
+.mainBody {
+    flex: 1;
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+
+}
+
+.mainBody img{
+    flex = 1;
+    object-fit: contain;
+    height: 100px;
+}
+
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(27, 193, 248);
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 10px auto;
+    margin-top: -600px;
+    max-width: 560px;
+
+}
+
+.search_input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(73, 72, 72);
+}
+
+.search_input .material-symbols-outlined{
+    color: rgb(255, 255, 255);
+
+}
+
+.search_buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search_buttons button{
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+body{
+    background-color: rgb(73, 72, 72);
+}
