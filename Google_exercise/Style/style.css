@@ -20,7 +20,7 @@ body {
 .Header a {
     margin-right: 20px;
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: inherit;
 
 }
@@ -33,8 +33,8 @@ body {
     color: aliceblue;
     display: flex;
     align-items: center;
-    min-width: 13vw;
-    justify-content: space-between;
+    min-width: auto;
+    justify-content: space-between 5px;
 }
 
 .Header_right .Header_apps {
@@ -50,27 +50,27 @@ body {
 .mainBody {
     flex: 1;
     display: flex;
-    margin-top: 15%;
+    margin-top: 13%;
     flex-direction: column;
 
 }
 
 .mainBody img{
-    flex = 1;
     object-fit: contain;
     height: 100px;
 }
 
-.search_input{
+
+.search_input {
     display: flex;
     align-items: center;
-    border: 1px solid rgb(27, 193, 248);
+    border: 1px solid rgb(255, 255, 255);
     height: 30px;
     padding: 10px 20px;
-    border-radius: 999px;
+    border-radius: 99px;
     width: 75vw;
-    margin: 10px auto;
-    margin-top: -600px;
+    margin: 0 auto;
+    margin-top: 40px;
     max-width: 560px;
 
 }
@@ -80,30 +80,41 @@ body {
     padding: 10px 20px;
     border: none;
     outline: none;
-    background-color: rgb(73, 72, 72);
+    background-color: transparent;
+    color:white ;
+    font-size: large;
 }
 
 .search_input .material-symbols-outlined{
     color: rgb(255, 255, 255);
+    margin: 5px;
+
 
 }
 
-.search_buttons {
-    margin-top: 30px;
+
+.search_buttons{
+    margin-top: 1px ;
     display: flex;
     justify-content: center;
-
 }
 
 .search_buttons button{
     margin: 10px;
+    margin-top: 40px;
     padding: 10px 15px;
+    border-radius: 9px;
     background-color: white;
     outline: none;
     border: none;
     cursor: pointer;
 
 }
+.search_buttons button:active{
+    box-shadow
+
+}
+
 
 
 body{
