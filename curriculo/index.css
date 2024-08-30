@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    place-content: center;
+    background-color: wheat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+
+}
+
+.container{
+    justify-content: center;
+    /* background-color: rgb(175, 245, 245); */
+    background-color: white;
+    width: 50vw;
+    height: 100vh;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px blue;
+
+}
+
+
+.foto{
+    margin-top: 2%;
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+
+.header{
+    text-align: center;
+    color: black;
+}
+
+.header h3{
+    font-size: medium;
+    color: gray;
+
+}
+
+.about{
+    text-align: left;
+    justify-content: left;
+    font-size: medium;
+    margin-left: 15px;
+    & h3{
+        font-size: large;
+    }
+}
+
+.prof{
+    text-align: left;
+    justify-content: left;
+    margin-left: 15px;
+
+    & h3{
+        font-size: large;
+    }
+
+    & p{
+        font-size: medium;
+    }
+
+}
+
+.tech{
+    text-align: left;
+    justify-content: left;
+    margin-left: 15px;
+
+    & h3{
+        font-size: large;
+    }
+
+    & p{
+        font-size: medium;
+    }
+}
+
+.edu{
+    text-align: left;
+    justify-content: left;
+    margin-left: 15px;
+
+    & h3{
+        font-size: large;
+    }
+
+    & p{
+        font-size: medium;
+    }
+}
