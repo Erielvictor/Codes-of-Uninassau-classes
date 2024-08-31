@@ -45,6 +45,7 @@ body{
     cursor: pointer;
     width: 150px;
     box-shadow: 0 2px 10px blue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .linkedin{
@@ -54,6 +55,7 @@ body{
     cursor: pointer;
     width: 150px;
     box-shadow: 0 2px 10px blue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .linkedin:hover{
@@ -65,6 +67,8 @@ body{
         rgba(0, 140, 225, 0.6),
         rgba(128, 0, 128, 0.308)
     );
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .button:hover{
@@ -76,6 +80,8 @@ body{
         rgba(0, 140, 225, 0.6),
         rgba(128, 0, 128, 0.308)
     );
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .button:active{
@@ -86,12 +92,19 @@ body{
 
 .header{
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header h1{
+    margin-bottom: 1px;
+
 }
 
 .header h3{
     font-size: medium;
     color: gray;
+    margin-top: 1px;
 
 }
 
@@ -101,6 +114,7 @@ body{
     font-size: medium;
     margin-left: 15px;
     & h3{
+        margin-bottom: -10px;
         font-size: large;
     }
 }
