@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+
+.form{
+    --main-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: 4px 4px var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+
+.title{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title span{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    outline: none;
+    color: white;
+}
+
+.input::placeholder{
+    color: aqua;
+    opacity: 0.7;
+}
+
+.social_buttons{
+    background-color: aqua;
+    display: block;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+#twitter{
+    margin: 10px;
+    padding: 4px 10px 4px;
+    
+}
+
+#google{
+    margin: 10px;
+    padding: 4px 10px 4px;
+}
+
+#email{
+    margin: 10px;
+    padding: 4px 10px 4px;
+}
